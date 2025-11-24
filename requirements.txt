@@ -1,0 +1,17 @@
+# Core dependencies for recommendation algorithms
+sentence-transformers>=2.2.0
+scikit-learn>=1.0.0
+numpy>=1.21.0
+pandas>=1.3.0
+
+# Optional: for visualization (if you use the full examples)
+matplotlib>=3.4.0
+seaborn>=0.11.0
+
+# Optional: for data collection
+# newsapi-python>=0.2.6
+# kaggle>=1.5.12
+
+# Optional: for evaluation scripts
+# datasets>=2.0.0
+# human-eval>=1.0.0
