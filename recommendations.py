@@ -1,9 +1,4 @@
 """
-Three Recommendation Algorithms for News Feed Project
-
-Just the core recommender implementations - no evaluation framework.
-Use these with your own evaluation setup.
-
 Algorithms:
 1. Pure Relevance - Similarity-based ranking
 2. Calibrated Diversity - MMR (Maximal Marginal Relevance)
@@ -133,84 +128,72 @@ class CalibratedDiversityRecommender:
     Balances relevance with diversity using Maximal Marginal Relevance.
     Based on: Carbonell & Goldstein (1998)
 
-    Score = λ × relevance + (1-λ) × diversity
+   Score = λ × relevance + (1-λ) × diversity
     """
-
-    def __init__(self, corpus: NewsCorpus, lambda_param: float = 0.7):
+    def __init__(self, corpus: NewsCorpus, lambda_param: float = 0.7, pool_size: int = 2000):
         """
         Args:
             corpus: NewsCorpus with embeddings
-            lambda_param: Trade-off between relevance and diversity
-                - 1.0 = pure relevance
-                - 0.0 = pure diversity
-                - 0.7 = recommended (70% relevance, 30% diversity)
+            lambda_param: relevance vs diversity tradeoff
+            pool_size: restrict candidate pool to top-K most relevant
         """
         self.corpus = corpus
         self.embeddings = corpus.embeddings
         self.lambda_param = lambda_param
+        self.pool_size = pool_size
 
-    def recommend(self,
-                  user_history: List[int],
-                  k: int = 10,
-                  exclude_history: bool = True) -> List[int]:
-        """
-        Get top-k recommendations using MMR
+        # Normalize embeddings so cosine similarity becomes dot product
+        self.norm_embeddings = self.embeddings / np.linalg.norm(self.embeddings, axis=1, keepdims=True)
 
-        Args:
-            user_history: List of article indices the user has read
-            k: Number of recommendations to return
-            exclude_history: Whether to exclude already-read articles
-
-        Returns:
-            List of k article indices (recommendations)
-        """
+    def recommend(self, user_history: List[int], k: int = 10, exclude_history: bool = True) -> List[int]:
         if not user_history:
             return np.random.choice(len(self.embeddings), k, replace=False).tolist()
 
-        # User profile
-        user_profile = np.mean([self.embeddings[i] for i in user_history], axis=0)
+        # === Step 1: User profile vector ===
+        user_profile = np.mean(self.norm_embeddings[user_history], axis=0)
 
-        # Candidate pool
-        candidates = list(range(len(self.embeddings)))
+        # === Step 2: Compute relevance once (vectorized) ===
+        relevance_scores = self.norm_embeddings @ user_profile
+
+        # Exclude history
         if exclude_history:
-            candidates = [i for i in candidates if i not in user_history]
+            relevance_scores[user_history] = -np.inf
 
-        # Iteratively select articles
+        # === Step 3: Reduce candidate pool for diversity (massive speedup) ===
+        candidate_pool = np.argsort(relevance_scores)[-self.pool_size:]
+
+        # === Step 4: Greedy MMR ===
         selected = []
+        selected_vecs = []
 
-        for _ in range(min(k, len(candidates))):
-            mmr_scores = []
+        for _ in range(min(k, len(candidate_pool))):
 
-            for candidate_idx in candidates:
-                # Relevance: similarity to user profile
-                relevance = cosine_similarity(
-                    [user_profile],
-                    [self.embeddings[candidate_idx]]
-                )[0][0]
+            # Compute diversity in vectorized form
+            if selected_vecs:
+                # shape: (num_candidates, num_selected)
+                sim_to_selected = np.dot(self.norm_embeddings[candidate_pool], np.array(selected_vecs).T)
+                # max similarity for each candidate
+                max_sim = sim_to_selected.max(axis=1)
+                diversity = 1 - max_sim
+            else:
+                diversity = np.ones(len(candidate_pool))
 
-                # Diversity: distance from already selected articles
-                if selected:
-                    # Find maximum similarity to any selected article
-                    similarities_to_selected = [
-                        cosine_similarity(
-                            [self.embeddings[candidate_idx]],
-                            [self.embeddings[s]]
-                        )[0][0]
-                        for s in selected
-                    ]
-                    max_similarity = max(similarities_to_selected)
-                    diversity = 1 - max_similarity
-                else:
-                    diversity = 1.0  # First article has max diversity
+            # relevance for candidates only
+            rel_subset = relevance_scores[candidate_pool]
 
-                # MMR score: weighted combination
-                mmr = self.lambda_param * relevance + (1 - self.lambda_param) * diversity
-                mmr_scores.append(mmr)
+            # final MMR score
+            mmr_scores = self.lambda_param * rel_subset + (1 - self.lambda_param) * diversity
 
-            # Select article with highest MMR score
-            best_idx = np.argmax(mmr_scores)
-            selected.append(candidates[best_idx])
-            candidates.pop(best_idx)
+            # pick best candidate
+            best_idx_in_pool = np.argmax(mmr_scores)
+            best_article = candidate_pool[best_idx_in_pool]
+            selected.append(best_article)
+
+            # store for next iteration
+            selected_vecs.append(self.norm_embeddings[best_article])
+
+            # remove from pool
+            candidate_pool = np.delete(candidate_pool, best_idx_in_pool)
 
         return selected
 
@@ -299,99 +282,3 @@ class SerendipityAwareRecommender:
         np.random.shuffle(recommendations)
 
         return recommendations
-
-
-# ============================================================================
-# USAGE EXAMPLE
-# ============================================================================
-
-if __name__ == "__main__":
-
-    print("="*70)
-    print("News Recommendation Algorithms - Demo")
-    print("="*70)
-
-    # Create sample data
-    print("\n1. Creating sample news corpus...")
-
-    titles = [
-        'Biden announces new climate policy',
-        'Trump rally draws thousands',
-        'Stock market hits record high',
-        'Lakers win championship',
-        'New AI model released',
-        'Supreme Court ruling issued',
-        'Tech startup raises funding',
-        'Hollywood strike continues',
-        'Congress passes spending bill',
-        'Scientists discover new species',
-    ]
-
-    contents = [
-        'The administration announced sweeping climate initiatives targeting emissions...',
-        'Former president addresses supporters at packed stadium venue...',
-        'Wall Street celebrates as major indices reach unprecedented levels...',
-        'Basketball team clinches title in dramatic final game...',
-        'Research team unveils breakthrough artificial intelligence system...',
-        'High court makes landmark decision affecting national policy...',
-        'Silicon Valley company secures major venture capital investment...',
-        'Entertainment industry labor dispute enters critical phase...',
-        'Legislature approves budget after heated negotiations...',
-        'Marine biologists announce remarkable deep sea finding...',
-    ]
-
-    # Repeat to create more articles
-    sample_articles = pd.DataFrame({
-        'title': titles * 10,
-        'content': contents * 10
-    })
-
-    print(f"Created corpus with {len(sample_articles)} articles")
-
-    # Create embeddings
-    print("\n2. Creating embeddings...")
-    corpus = NewsCorpus(sample_articles)
-    corpus.create_embeddings()
-
-    # Initialize recommenders
-    print("\n3. Initializing recommenders...")
-    rec1 = PureRelevanceRecommender(corpus)
-    rec2 = CalibratedDiversityRecommender(corpus, lambda_param=0.7)
-    rec3 = SerendipityAwareRecommender(corpus, serendipity_ratio=0.3)
-
-    print("✓ Pure Relevance")
-    print("✓ Calibrated Diversity (λ=0.7)")
-    print("✓ Serendipity-Aware (30% unexpected)")
-
-    # Simulate user with history
-    print("\n4. Simulating user with reading history...")
-    user_history = [0, 1, 5, 8]  # Read some political articles
-    print("User has read articles:", user_history)
-
-    # Get recommendations from each algorithm
-    print("\n5. Getting recommendations (k=10)...")
-
-    recs1 = rec1.recommend(user_history, k=10)
-    recs2 = rec2.recommend(user_history, k=10)
-    recs3 = rec3.recommend(user_history, k=10)
-
-    print("\n" + "="*70)
-    print("RECOMMENDATIONS")
-    print("="*70)
-
-    print("\n📊 Pure Relevance:")
-    for i, idx in enumerate(recs1[:5], 1):
-        print(f"  {i}. [{idx}] {corpus.df.iloc[idx]['title']}")
-
-    print("\n🎯 Calibrated Diversity (MMR):")
-    for i, idx in enumerate(recs2[:5], 1):
-        print(f"  {i}. [{idx}] {corpus.df.iloc[idx]['title']}")
-
-    print("\n✨ Serendipity-Aware:")
-    for i, idx in enumerate(recs3[:5], 1):
-        print(f"  {i}. [{idx}] {corpus.df.iloc[idx]['title']}")
-
-    print("\n" + "="*70)
-    print("Demo complete!")
-    print("\nNow use these recommenders with your own evaluation framework.")
-    print("="*70)
