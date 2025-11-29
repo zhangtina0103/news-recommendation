@@ -19,10 +19,8 @@ def compute_centroid(embeddings: np.ndarray, indices: List[int]) -> np.ndarray:
     """
     if not indices:
         raise ValueError("Can't compute centroid of empty indices list")
-
     selected_embeddings = embeddings[indices]
-    centroid = np.mean(selected_embeddings, axis=0)
-    return centroid
+    return np.mean(selected_embeddings, axis=0)
 
 
 def compute_cosine_similarity(vec1: np.ndarray, vec2: np.ndarray) -> float:
@@ -217,9 +215,8 @@ def main():
         recommendation_files
     )
 
-    # Save results
     comparison_df.to_csv("embedding_drift_comparison.csv", index=False)
-    print("\nResults saved to 'embedding_drift_comparison.csv'")
+    print("Saved: embedding_drift_comparison.csv")
 
 if __name__ == "__main__":
     main()
