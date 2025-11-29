@@ -1,21 +1,22 @@
 import os
+import sys
 import json
+
+_parent_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+if _parent_dir not in sys.path:
+    sys.path.insert(0, _parent_dir)
+
 import numpy as np
 import pandas as pd
 
-from recommendations import (
-    NewsCorpus,
-    PureRelevanceRecommender,
-    CalibratedDiversityRecommender,
-    SerendipityAwareRecommender
-)
+from recommendation_algorithms.news_corpus import NewsCorpus
+from recommendation_algorithms.pure_relevance.pure_relevance import PureRelevanceRecommender
+from recommendation_algorithms.calibrated_diversity.calibrated_diversity import CalibratedDiversityRecommender
+from recommendation_algorithms.serendipity.serendipity import SerendipityAwareRecommender
 
 MIND_PATH = "/content/MINDsmall_train"
 
-# =============================================================
-# LOAD MIND DATASET AND CONVERT TO NewsCorpus FORMAT
-# =============================================================
-
+# load dataset and convert to NewsCorpus format
 def load_mind_as_articles(path=MIND_PATH):
     behaviors = pd.read_csv(
         os.path.join(path, "behaviors.tsv"),
@@ -45,13 +46,7 @@ def load_mind_as_articles(path=MIND_PATH):
     return articles, behaviors, news_id_to_index
 
 
-# =============================================================
-# MAIN PIPELINE
-# =============================================================
-
 def main():
-    print("Loading MIND-small from:", MIND_PATH)
-
     articles_df, behaviors, news_id_to_index = load_mind_as_articles()
 
     corpus = NewsCorpus(articles_df)
@@ -88,8 +83,8 @@ def main():
         rec3 = ser.recommend(user_history_indices, k=10)
 
         results_rel.append({
-            "user_id": str(row["user_id"]),                     # ensure string
-            "recommended_indices": [int(x) for x in rec1]       # convert numpy int64 → int
+            "user_id": str(row["user_id"]),
+            "recommended_indices": [int(x) for x in rec1]
         })
         results_div.append({
             "user_id": str(row["user_id"]),
@@ -108,8 +103,7 @@ def main():
     json.dump(results_div, open("calibrated_diversity.json", "w"), indent=4)
     json.dump(results_ser, open("serendipity.json", "w"), indent=4)
 
-    print("Done! JSON files saved in current folder.")
-
+    print("JSON files saved in current folder.")
 
 if __name__ == "__main__":
     main()

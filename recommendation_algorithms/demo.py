@@ -1,5 +1,13 @@
+import sys
+import os
+# Add parent directory to path for imports when run directly
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 import pandas as pd
-from recommendations import NewsCorpus, PureRelevanceRecommender, CalibratedDiversityRecommender, SerendipityAwareRecommender
+from recommendation_algorithms.news_corpus import NewsCorpus
+from recommendation_algorithms.pure_relevance.pure_relevance import PureRelevanceRecommender
+from recommendation_algorithms.calibrated_diversity.calibrated_diversity import CalibratedDiversityRecommender
+from recommendation_algorithms.serendipity.serendipity import SerendipityAwareRecommender
 
 """
 Demo with sample data
@@ -9,8 +17,6 @@ print("News Recommendation Algorithms - Demo")
 print("="*70)
 
 # Create sample data
-print("\n1. Creating sample news corpus...")
-
 titles = [
     'Biden announces new climate policy',
     'Trump rally draws thousands',
@@ -46,12 +52,12 @@ sample_articles = pd.DataFrame({
 print(f"Created corpus with {len(sample_articles)} articles")
 
 # Create embeddings
-print("\n2. Creating embeddings...")
+print("\nCreating embeddings...")
 corpus = NewsCorpus(sample_articles)
 corpus.create_embeddings()
 
 # Initialize recommenders
-print("\n3. Initializing recommenders...")
+print("\Initializing recommenders...")
 rec1 = PureRelevanceRecommender(corpus)
 rec2 = CalibratedDiversityRecommender(corpus, lambda_param=0.7)
 rec3 = SerendipityAwareRecommender(corpus, serendipity_ratio=0.3)
@@ -90,4 +96,4 @@ for i, idx in enumerate(recs3[:5], 1):
     print(f"  {i}. [{idx}] {corpus.df.iloc[idx]['title']}")
 
 print("\n" + "="*70)
-print("Demo complete!")
+print("Demo complete.")

@@ -2,8 +2,8 @@ import json
 import numpy as np
 import pandas as pd
 from typing import List, Dict
-from recommendations import NewsCorpus
-from full_run import load_mind_as_articles
+from recommendation_algorithms.news_corpus import NewsCorpus
+from recommendation_algorithms.full_run import load_mind_as_articles
 
 
 def compute_centroid(embeddings: np.ndarray, indices: List[int]) -> np.ndarray:
