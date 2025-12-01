@@ -1,9 +1,26 @@
+"""
+LLM-based Evaluation of News Recommendations
+
+For Google Colab:
+1. Clone repo: !git clone <repo_url>
+2. Upload JSON recommendation files to /content/ (or adjust JSON_DIR in main())
+3. Run: python evaluation/llm_method.py
+"""
+
 import json
 import numpy as np
 import pandas as pd
 from typing import List, Dict, Optional
 from dataclasses import dataclass
 import time
+import sys
+import os
+
+# Add parent directory to path for imports (works when running as script or when package not installed)
+_parent_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+if _parent_dir not in sys.path:
+    sys.path.insert(0, _parent_dir)
+
 from recommendation_algorithms.news_corpus import NewsCorpus
 from tqdm import tqdm
 from recommendation_algorithms.full_run import load_mind_as_articles
@@ -348,7 +365,11 @@ def compare_all_methods(
     return pd.DataFrame(comparison_results)
 
 def main():
+    import os
+
+    # For Colab: adjust paths as needed
     MIND_PATH = "/content/MINDsmall_train"
+    JSON_DIR = "/content"  # JSON files should be uploaded here
 
     print("\nLoading MIND dataset...")
     articles_df, behaviors, news_id_to_index = load_mind_as_articles(MIND_PATH)
@@ -358,10 +379,18 @@ def main():
     corpus.create_embeddings()
 
     recommendation_files = {
-        "Pure Relevance": "/content/pure_relevance.json",
-        "Calibrated Diversity": "/content/calibrated_diversity.json",
-        "Serendipity-Aware": "/content/serendipity.json"
+        "Pure Relevance": os.path.join(JSON_DIR, "pure_relevance.json"),
+        "Calibrated Diversity": os.path.join(JSON_DIR, "calibrated_diversity.json"),
+        "Serendipity-Aware": os.path.join(JSON_DIR, "serendipity.json")
     }
+
+    # Check if JSON files exist
+    missing_files = [name for name, path in recommendation_files.items() if not os.path.exists(path)]
+    if missing_files:
+        print(f"\nWarning: Missing JSON files: {missing_files}")
+        print(f"Expected location: {JSON_DIR}")
+        print("Please upload the recommendation JSON files to /content/")
+        return
 
     # Choose model
     MODEL_NAME = "meta-llama/Llama-3.2-3B-Instruct"
