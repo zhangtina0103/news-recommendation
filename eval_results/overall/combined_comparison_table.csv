@@ -1,0 +1,4 @@
+Method,Echo Score (lower better),Rec Diversity,Echo Chamber %,LLM Novelty (1-5),LLM Perspective (1-5),Framing Diff %
+Pure Relevance,1.568,0.592,98.5%,2.84,2.54,80.8%
+Calibrated Diversity,1.090,0.829,89.0%,2.79,2.49,82.5%
+Serendipity-Aware,1.079,0.840,76.9%,2.79,2.51,83.6%

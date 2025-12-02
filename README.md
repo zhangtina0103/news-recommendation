@@ -25,24 +25,47 @@ We implement three recommendation algorithms:
 
 ## Evaluation Methodologies
 
-We evaluate these recommendation algorithms using three different methodologies:
+We evaluate these recommendation algorithms using four different methodologies:
 
-1. **Centroid Method** (`evaluation/centroid_method.py`)
+1. **Centroid Method (Embedding Drift)** (`evaluation/centroid_method.py`)
 
    - Computes embedding drift by comparing centroid vectors of user history vs recommendations
-   - Measures how recommendations diverge from user's existing preferences
+   - Measures how recommendations diverge from user's existing preferences in embedding space
    - High drift = broader exposure, diverse recommendations
    - Low drift = echo chamber tightening, similar recommendations
+   - Visualizes actual centroid locations in 2D space using PCA
 
-2. **LLM Evaluation**
+2. **LLM Evaluation** (`evaluation/llm_method.py`)
 
-   - Uses large language models to assess recommendation quality and diversity
-   - Evaluates semantic diversity and information breadth of recommendations
+   - Uses large language models (GPT-2) to assess recommendation quality and diversity
+   - Evaluates three key metrics:
+     - **Novelty**: How new/different the recommended content is from user history (1-5 scale)
+     - **Perspective Contrast**: How different the viewpoints are (1-5 scale)
+     - **Framing Difference**: Whether recommendations use different political framing (%)
+   - Provides detailed reasoning for each evaluation
 
-3. **Sentiment Analysis**
-   - Analyzes sentiment distribution in recommended articles
-   - Measures whether recommendations introduce diverse perspectives
-   - Tracks sentiment shifts between user history and recommendations
+3. **Diversity Method (Echo Chamber Analysis)** (`evaluation/diversity_method.py`)
+
+   - Measures echo chamber effects and diversity in recommendations using semantic clustering
+   - Computes pairwise distances between articles in embedding space
+   - Key metrics:
+     - **Echo Score**: Lower is better, measures how similar recommendations are to history
+     - **History Diversity**: Average pairwise distance in user's reading history
+     - **Recommendation Diversity**: Average pairwise distance in recommended articles
+     - **Echo Chamber %**: Percentage of recommendations that reinforce existing views
+     - **Bubble Breaking %**: Percentage of recommendations that introduce new perspectives
+   - Echo Chamber Score = diversity_of_history / diversity_of_recommendations
+     - Score > 1.0 = Echo chamber (recommendations more clustered than history)
+     - Score < 1.0 = Bubble breaking (recommendations more diverse than history)
+
+4. **Political Bias Classifier** (`evaluation/sentiment_method.py`)
+
+   - Analyzes political bias/leaning of news articles using HuggingFace models
+   - Uses `valurank/distilroberta-bias` model to classify articles on political spectrum
+   - Measures:
+     - Mean bias shift between history and recommendations
+     - Bias diversity in recommendations
+     - Tracks whether recommendations introduce diverse political perspectives
 
 ## Project Structure
 
@@ -56,9 +79,17 @@ AIDS/
 │   ├── demo.py                  # Demo with sample data
 │   └── full_run.py              # Full pipeline on MIND dataset
 ├── evaluation/
-│   └── centroid_method.py       # Centroid-based embedding drift evaluation
+│   ├── centroid_method.py       # Centroid-based embedding drift evaluation
+│   ├── llm_method.py            # LLM-based evaluation (novelty, perspective, framing)
+│   ├── diversity_method.py      # Echo chamber and diversity analysis
+│   ├── sentiment_method.py      # Political bias classifier
+│   └── visualize_results.py     # Generate visualizations for all evaluation results
 ├── recommended_results/         # Generated recommendation JSON files
 ├── eval_results/                # Evaluation results and comparisons
+│   ├── echo_chamber_analysis.csv    # Diversity and echo chamber metrics
+│   ├── llm_evaluation.csv           # LLM evaluation summary
+│   ├── llm_reasoning/               # Detailed LLM evaluation JSON files
+│   └── *.png                        # Visualization outputs
 └── requirements.txt
 ```
 
@@ -88,11 +119,34 @@ python recommendation_algorithms/full_run.py
 
 ### Evaluation
 
-Run the centroid method evaluation:
+Run individual evaluation methods:
 
 ```bash
+# Centroid method (embedding drift)
 python evaluation/centroid_method.py
+
+# LLM evaluation (novelty, perspective, framing)
+python evaluation/llm_method.py
+
+# Diversity method (echo chamber analysis)
+python evaluation/diversity_method.py
+
+# Political bias classifier
+python evaluation/sentiment_method.py
 ```
+
+Generate all visualizations:
+
+```bash
+python evaluation/visualize_results.py
+```
+
+This creates visualizations for:
+
+- Centroid locations in embedding space (PCA-reduced)
+- LLM evaluation box plots and distributions
+- Diversity metrics and echo chamber analysis
+- Combined comparison across all methods
 
 ## Results
 
