@@ -1,0 +1,4 @@
+Method,N,Echo_Score,Echo_Score_Std,History_Div,Rec_Div,Echo_Chamber_%,Bubble_Breaking_%,Echo_Count,Breaking_Count
+Pure Relevance,593,1.568,0.364,0.904,0.592,98.5,1.2,584,7
+Calibrated Diversity,593,1.090,0.131,0.904,0.829,89.0,1.5,528,9
+Serendipity-Aware,593,1.079,0.137,0.904,0.840,76.9,2.2,456,13
