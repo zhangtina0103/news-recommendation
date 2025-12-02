@@ -1,0 +1,4 @@
+Method,N,Novelty,Novelty_Std,Perspective,Perspective_Std,Framing_Diff_%
+Pure Relevance,593,2.84,0.47,2.54,0.62,80.8%
+Calibrated Diversity,593,2.79,0.48,2.49,0.58,82.5%
+Serendipity-Aware,593,2.79,0.50,2.51,0.60,83.6%

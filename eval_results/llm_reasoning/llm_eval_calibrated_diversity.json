@@ -1,0 +1,3560 @@
+[
+  {
+    "user_id": "U13740",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U91836",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U73700",
+    "novelty": 4.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U34670",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U8125",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U19739",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U8355",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U46596",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U79199",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U53231",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U89744",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U10045",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U92486",
+    "novelty": 4.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U29155",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U63162",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U17841",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U8312",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U11306",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U38627",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U47654",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U70879",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U80798",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U19722",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U9306",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U67119",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U91678",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U12328",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U44808",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U36009",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U85394",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U6744",
+    "novelty": 2.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U81585",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U83994",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U78244",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U50695",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U49572",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U80709",
+    "novelty": 4.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U39703",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U27024",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U84248",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U78954",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U40466",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U15141",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U16402",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U9312",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U1700",
+    "novelty": 4.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U53159",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U40937",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U38865",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U78765",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U700",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U7932",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U2579",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U45798",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U92183",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U73329",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U61875",
+    "novelty": 4.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U39029",
+    "novelty": 2.0,
+    "perspective": 2.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U39643",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U50562",
+    "novelty": 4.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U53276",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U54128",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U47477",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U37844",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U6518",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U39868",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U23485",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U61371",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U63808",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U2935",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U15363",
+    "novelty": 3.0,
+    "perspective": 4.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U5627",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U7471",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U67565",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U1376",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U11533",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U22930",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U86017",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U3616",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U47892",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U66486",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U91389",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U37127",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U24775",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U39222",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U5286",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U69950",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U92093",
+    "novelty": 4.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U52005",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U27804",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U52914",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U60663",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U12957",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U85027",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U10585",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U47761",
+    "novelty": 3.0,
+    "perspective": 4.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U13227",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U70910",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U53319",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U84084",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U29279",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U39670",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U21482",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U5786",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U15527",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U77213",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U77964",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U51224",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U62357",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U46035",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U80525",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U81530",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U84565",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U27609",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U73145",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U59975",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U26661",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U93283",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U27612",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U33010",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U93706",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U78130",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U1728",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U63647",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U35419",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U11228",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U44296",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U41865",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U80456",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U14421",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U89226",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U69760",
+    "novelty": 3.0,
+    "perspective": 4.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U85982",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U85516",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U11920",
+    "novelty": 3.0,
+    "perspective": 4.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U51456",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U21767",
+    "novelty": 2.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U28121",
+    "novelty": 4.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U80142",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U496",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U25283",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U40685",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U74754",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U13432",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U91990",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U29542",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U88635",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U67982",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U338",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U8581",
+    "novelty": 3.0,
+    "perspective": 4.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U57919",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U67223",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U2476",
+    "novelty": 2.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U7635",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U65361",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U39782",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U50368",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U21705",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U46937",
+    "novelty": 2.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U51668",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U70158",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U8317",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U86241",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U68197",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U82105",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U40451",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U38642",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U64038",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U29035",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U8335",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U21697",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U80190",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U82278",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U26059",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U90945",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U41828",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U21545",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U83111",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U65061",
+    "novelty": 2.0,
+    "perspective": 2.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U90887",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U83995",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U65795",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U41223",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U22999",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U52270",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U5065",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U71558",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U57266",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U58552",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U44940",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U15686",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U20995",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U57069",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U57589",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U16225",
+    "novelty": 4.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U24856",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U51750",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U35231",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U13165",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U27603",
+    "novelty": 2.0,
+    "perspective": 2.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U48708",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U32154",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U71336",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U5362",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U55142",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U65009",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U23879",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U88754",
+    "novelty": 3.0,
+    "perspective": 4.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U76500",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U92991",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U39701",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U68330",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U58864",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U19958",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U48368",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U56234",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U82126",
+    "novelty": 2.0,
+    "perspective": 2.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U14014",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U50647",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U45814",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U87873",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U69940",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U73090",
+    "novelty": 3.0,
+    "perspective": 4.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U42208",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U55109",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U32915",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U45170",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U21621",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U75281",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U35110",
+    "novelty": 4.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U47019",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U50518",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U53773",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U12302",
+    "novelty": 4.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U55727",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U88554",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U41731",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U14104",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U61958",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U60011",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U38989",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U81600",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U25574",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U20563",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U37909",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U5285",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U75593",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U92476",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U31178",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U3596",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U83056",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U59459",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U65749",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U16818",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U29589",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U12508",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U37608",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U56732",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U19598",
+    "novelty": 3.0,
+    "perspective": 4.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U51225",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U90591",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U17699",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U4992",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U28931",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U34175",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U47164",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U73550",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U37316",
+    "novelty": 4.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U50993",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U89120",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U16899",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U23637",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U43527",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U31288",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U19467",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U50999",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U59701",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U43256",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U10932",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U91652",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U14239",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U60761",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U87590",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U17403",
+    "novelty": 4.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U1448",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U70107",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U25264",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U77715",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U48223",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U11858",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U62140",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U14623",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U84681",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U60994",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U61114",
+    "novelty": 3.0,
+    "perspective": 4.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U48853",
+    "novelty": 3.0,
+    "perspective": 4.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U62371",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U16646",
+    "novelty": 3.0,
+    "perspective": 4.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U30800",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U88965",
+    "novelty": 4.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U44264",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U81193",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U93817",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U5831",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U77872",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U93464",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U67659",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U81754",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U78328",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U46023",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U942",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U74667",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U17501",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U19975",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U36991",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U8472",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U50399",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U35764",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U54138",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U35435",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U83825",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U93438",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U90098",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U48747",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U57639",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U50153",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U8740",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U83672",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U54512",
+    "novelty": 3.0,
+    "perspective": 4.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U6071",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U44207",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U53600",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U81319",
+    "novelty": 2.0,
+    "perspective": 2.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U56837",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U48781",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U28551",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U80599",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U28788",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U32775",
+    "novelty": 2.0,
+    "perspective": 2.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U78325",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U69377",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U70630",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U9331",
+    "novelty": 4.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U6124",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U66361",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U27978",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U75724",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U52186",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U12282",
+    "novelty": 2.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U25398",
+    "novelty": 3.0,
+    "perspective": 4.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U79903",
+    "novelty": 3.0,
+    "perspective": 4.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U67252",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U87611",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U62724",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U25291",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U35837",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U1306",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U12933",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U45314",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U33845",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U8229",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U66789",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U52915",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U51047",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U11010",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U72456",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U60743",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U54370",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U85062",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U60035",
+    "novelty": 3.0,
+    "perspective": 4.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U32531",
+    "novelty": 3.0,
+    "perspective": 4.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U33479",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U58780",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U32146",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U14201",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U28216",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U35396",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U46472",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U11334",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U87639",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U64483",
+    "novelty": 3.0,
+    "perspective": 4.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U91939",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U18262",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U43261",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U40471",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U83964",
+    "novelty": 4.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U24814",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U8598",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U94037",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U27440",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U20748",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U16252",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U34310",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U31791",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U16317",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U53278",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U79461",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U92744",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U78379",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U79420",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U82544",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U13674",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U13306",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U66957",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U51678",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U89703",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U21488",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U76446",
+    "novelty": 4.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U86434",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U12456",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U72744",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U41463",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U84699",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U17594",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U12273",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U55308",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U4993",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U8468",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U12508",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U3457",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U93861",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U25080",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U28571",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U92339",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U59869",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U15586",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U46315",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U14157",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U35766",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U23051",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U65427",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U1573",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U58079",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U19216",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U69262",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U79549",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U1287",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U47558",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U57979",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U49847",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U8982",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U85230",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U1148",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U70099",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U54212",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U22083",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U66170",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U60342",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U9813",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U17142",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U20856",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U88588",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U9828",
+    "novelty": 3.0,
+    "perspective": 4.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U41686",
+    "novelty": 4.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U68669",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U30774",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U23728",
+    "novelty": 3.0,
+    "perspective": 4.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U11440",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U51836",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U89798",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U579",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U20536",
+    "novelty": 3.0,
+    "perspective": 4.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U29934",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U28788",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U37807",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U32334",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U47749",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U83829",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U46168",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U59196",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U21821",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U79834",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U45421",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U54057",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U2045",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U19211",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U2906",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U21574",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U91987",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U5796",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U84149",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U88014",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U69469",
+    "novelty": 3.0,
+    "perspective": 4.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U1411",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U7058",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U43454",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U21081",
+    "novelty": 2.0,
+    "perspective": 2.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U24533",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U90716",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U92212",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U7740",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U33765",
+    "novelty": 3.0,
+    "perspective": 4.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U29722",
+    "novelty": 3.0,
+    "perspective": 4.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U52454",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U20316",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U30612",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U8095",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U48577",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U17160",
+    "novelty": 2.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U21232",
+    "novelty": 3.0,
+    "perspective": 4.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U3394",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U50918",
+    "novelty": 3.0,
+    "perspective": 4.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U12300",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U57824",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U47709",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U50866",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U2906",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U22865",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U8896",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U22697",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U47365",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U78832",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U56599",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U93511",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U57047",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U15719",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U81078",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U12392",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U28675",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U81379",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U75076",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U75917",
+    "novelty": 3.0,
+    "perspective": 4.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U79355",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U11850",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U89662",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U9494",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U48380",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U66216",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U26948",
+    "novelty": 4.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U89793",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U92491",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U71486",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U13087",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U19837",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U22200",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U48344",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U32466",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U65521",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U64022",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U38799",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U77524",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U6735",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U5587",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U18359",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U84014",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U39075",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U88043",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U73412",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U4776",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U13125",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U48727",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U51571",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U63769",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U9215",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U64167",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U36571",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U92702",
+    "novelty": 2.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U90649",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U90731",
+    "novelty": 2.0,
+    "perspective": 2.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U68328",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U205",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U67455",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U91026",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U15724",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U47671",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U4611",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U39061",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U55939",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U13506",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U72991",
+    "novelty": 3.0,
+    "perspective": 4.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U2245",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U39082",
+    "novelty": 4.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U48385",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U22738",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U7996",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U55448",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U4009",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U86485",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U6908",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U89267",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U83562",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U41642",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U68112",
+    "novelty": 3.0,
+    "perspective": 3.0,
+    "framing_different": 0
+  },
+  {
+    "user_id": "U44348",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U70993",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U12468",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U79719",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U42558",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U57936",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U91125",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U79205",
+    "novelty": 2.0,
+    "perspective": 3.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U36834",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  },
+  {
+    "user_id": "U12908",
+    "novelty": 3.0,
+    "perspective": 2.0,
+    "framing_different": 1
+  }
+]
