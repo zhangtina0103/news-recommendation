@@ -92,7 +92,7 @@ class PoliticalBiasAnalyzer:
             print("Classifier loaded.\n")
 
         except ImportError as e:
-            print("ERROR: Install with: pip install transformers torch --break-system-packages")
+            print("ERROR: Install with: pip install transformers torch")
             raise e
 
     def _score_to_spectrum(self, result: Dict) -> float:

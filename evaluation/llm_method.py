@@ -1,10 +1,5 @@
 """
 LLM-based Evaluation of News Recommendations
-
-For Google Colab:
-1. Clone repo: !git clone <repo_url>
-2. Upload JSON recommendation files to /content/ (or adjust JSON_DIR in main())
-3. Run: python evaluation/llm_method.py
 """
 
 import json
@@ -41,7 +36,7 @@ class LLMEvaluator:
     def __init__(
         self,
         corpus: NewsCorpus,
-        model: str = "meta-llama/Llama-3.2-3B-Instruct",
+        model: str = "microsoft/phi-2",
         use_gpu: bool = True,
         batch_size: int = 1
     ):
@@ -84,9 +79,14 @@ class LLMEvaluator:
                 device=device,
                 torch_dtype=dtype,
                 max_length=2048,
+                trust_remote_code=True  # Required for some models like Phi-2
             )
 
-            print("Model loaded")
+            # Set pad token if needed
+            if self.llm_pipeline.tokenizer.pad_token is None:
+                self.llm_pipeline.tokenizer.pad_token = self.llm_pipeline.tokenizer.eos_token
+
+            print("Model loaded successfully")
 
         except ImportError as e:
             print("ERROR: pip install transformers torch accelerate")
@@ -104,19 +104,20 @@ class LLMEvaluator:
         for i, art in enumerate(rec_sample, 1):
             rec_text += f"{i}. [{art['topic']}] {art['title']}\n"
 
-        prompt = f"""{history_text}
+        prompt = f"""You are evaluating news recommendations. Given a user's reading history and new recommendations, rate the recommendations on 3 metrics.
+
+{history_text}
 {rec_text}
 
-Rate these recommendations on 3 metrics. Respond ONLY with this JSON (no other text):
+Rate these recommendations:
+- novelty: How different are the topics? 1=same topics as history, 5=very different topics
+- perspective: How diverse are the viewpoints? 1=same viewpoint as history, 5=diverse viewpoints
+- framing: Does the political framing differ? 0=similar framing, 1=different political framing
 
-{{"novelty": <1-5>, "perspective": <1-5>, "framing": <0 or 1>}}
+Respond ONLY with valid JSON in this exact format:
+{{"novelty": <number 1-5>, "perspective": <number 1-5>, "framing": <0 or 1>}}
 
-Metrics:
-- novelty: 1=same topics as history, 5=very different topics
-- perspective: 1=same viewpoint, 5=diverse viewpoints
-- framing: 0=similar framing, 1=different political framing
-
-JSON only:"""
+JSON response:"""
 
         return prompt
 
@@ -156,17 +157,26 @@ JSON only:"""
         """Call HuggingFace LLM"""
         self._load_model()
 
-        response = self.llm_pipeline(
-            prompt,
-            max_new_tokens=100,
-            temperature=0.1,  # Low temp for consistency
-            do_sample=True,
-            top_p=0.9,
-            return_full_text=False,
-            pad_token_id=self.llm_pipeline.tokenizer.eos_token_id
-        )
+        if self.llm_pipeline is None:
+            raise RuntimeError("Model failed to load properly")
 
-        return response[0]['generated_text']
+        try:
+            response = self.llm_pipeline(
+                prompt,
+                max_new_tokens=100,
+                temperature=0.1,  # Low temp for consistency
+                do_sample=True,
+                top_p=0.9,
+                return_full_text=False,
+                pad_token_id=self.llm_pipeline.tokenizer.eos_token_id
+            )
+
+            return response[0]['generated_text']
+
+        except Exception as e:
+            print(f"ERROR calling LLM: {e}")
+            # Return empty string to trigger default values
+            return ""
 
     def evaluate_single_user(
         self,
@@ -371,6 +381,10 @@ def main():
     MIND_PATH = "/content/MINDsmall_train"
     JSON_DIR = "/content"  # JSON files should be uploaded here
 
+    print("="*60)
+    print("LLM EVALUATION")
+    print("="*60)
+
     print("\nLoading MIND dataset...")
     articles_df, behaviors, news_id_to_index = load_mind_as_articles(MIND_PATH)
 
@@ -392,9 +406,10 @@ def main():
         print("Please upload the recommendation JSON files to /content/")
         return
 
-    # Choose model
-    MODEL_NAME = "meta-llama/Llama-3.2-3B-Instruct"
-    # MODEL_NAME = "meta-llama/Llama-3.1-8B-Instruct"  # Better quality
+    # Choose model (instruction-tuned models work much better)
+    MODEL_NAME = "microsoft/phi-2"  # Truly open, no authentication needed, good at following instructions
+    # MODEL_NAME = "google/flan-t5-large"  # Alternative, good at following instructions
+    # MODEL_NAME = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"  # Another free option
 
     comparison_df = compare_all_methods(
         corpus,
@@ -402,7 +417,7 @@ def main():
         news_id_to_index,
         recommendation_files,
         model_name=MODEL_NAME,
-        max_users_per_method=None  # None = all users, or set to 50 for testing
+        max_users_per_method=None  # Test on 40 users first
     )
 
     comparison_df.to_csv("llm_evaluation.csv", index=False)
