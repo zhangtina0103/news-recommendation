@@ -7,11 +7,6 @@ the diversity of recommendations vs. the diversity of user's history.
 Echo Chamber Score = diversity_of_history / diversity_of_recommendations
 - Score > 1.0 = Echo chamber (recommendations MORE clustered than history)
 - Score < 1.0 = Bubble breaking (recommendations MORE diverse than history)
-
-For Google Colab:
-1. Clone repo: !git clone <repo_url>
-2. Upload JSON recommendation files to /content/
-3. Run: python evaluation/echo_chamber_method.py
 """
 
 import json
